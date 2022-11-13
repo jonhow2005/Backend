@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32929.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Encrypter", "Encrypter\Encrypter.pyproj", "{B149B943-18F6-4EE2-80D6-24BECE5D9984}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B149B943-18F6-4EE2-80D6-24BECE5D9984}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B149B943-18F6-4EE2-80D6-24BECE5D9984}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F98AE3B-86A4-4EA6-A472-D46C80AA7D4F}
+	EndGlobalSection
+EndGlobal
