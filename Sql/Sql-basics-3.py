@@ -1,7 +1,6 @@
 import sqlite3
 
 idname = str("ninganote")
-# connecting to the database
 connection = sqlite3.connect("filename.db")
 
 crsr = connection.cursor()
