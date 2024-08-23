@@ -12,7 +12,7 @@ twentycharmaxstring VARCHAR(20),
 thirtycharmaxstring VARCHAR(30), 
 onecharstring CHAR(1), 
 thedate DATE);"""
- 
+sql_destroy = """ DELETE FROM tablename WHERE thedate = 2001-09-11"""
 # execute statement
 crsr.execute(sql_command)
  
