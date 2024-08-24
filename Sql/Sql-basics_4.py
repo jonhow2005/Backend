@@ -8,7 +8,7 @@ connection_obj = sqlite3.connect('imgeekin.db')
 cursor_obj = connection_obj.cursor() 
   
 # to select all column we will use 
-statement = '''SELECT * FROM GEEKER'''
+statement = '''SELECT imgeekingoff FROM GEEKER'''
   
 cursor_obj.execute(statement) 
 Selection = Str(input("All/Custom Amount/One"))  
