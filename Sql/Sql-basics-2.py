@@ -1,7 +1,7 @@
 import sqlite3
  
 # generate connection
-connection = sqlite3.connect("gfg.db")
+connection = sqlite3.connect("geekin.db")
  
 crsr = connection.cursor()
  
