@@ -33,6 +33,22 @@ def insert():
   "", "1980-10-28");"""
   crsr.execute(sql_command)
   # close connection
+
+def fetch():
+    
+    cursor_obj.execute(statement) 
+    Selection = Str(input("All/Custom Amount/One"))  
+    print(Selection, "data set(s)") 
+    if Selection == All:
+        output = cursor_obj.fetchall()
+    elif Selection == "one":
+        output = cursor_obj.fetchmany(Selection) 
+    else:
+        output = cursor_obj.fetchone() 
+    for row in output: 
+        print(row)
+
+
 def close():
   connection.close()
 
