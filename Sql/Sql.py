@@ -1,4 +1,4 @@
-def connect:
+def connect():
     import sqlite3
 
     #connect to sql
@@ -9,7 +9,7 @@ def connect:
     # error check
     print("Connected")
 
-def createtable:
+def createtable():
     #Create table
     sql_command = """CREATE TABLE tablename ( 
     idnumber INTEGER PRIMARY KEY, 
@@ -22,16 +22,17 @@ def createtable:
     # execute statement
     crsr.execute(sql_command)
 
-def insert:
+def insert():
    # insert data
   sql_command = """INSERT INTO tbl VALUES (0, "?",\
   "value2", " ", "2000-01-01");"""
   crsr.execute(sql_command(input("GimedatId")))
  
-#mm 2 alter data to be inserted and insert again
+  #mm 2 alter data to be inserted and insert again
   sql_command = """INSERT INTO tbl VALUES (1, "value1 2nd", "value2 2nd",\
-"", "1980-10-28");"""
-crsr.execute(sql_command)
-# close connection
-connection.close()
+  "", "1980-10-28");"""
+  crsr.execute(sql_command)
+  # close connection
+def close():
+  connection.close()
 
