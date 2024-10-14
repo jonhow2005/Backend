@@ -17,6 +17,8 @@ def createtable():
     thirtycharmaxstring VARCHAR(30), 
     onecharstring CHAR(1), 
     thedate DATE);"""
+
+def delete():
     sql_delete = """DELETE FROM tablename WHERE thedate = 2001-09-11"""
     sql_full_remove = """DELETE FROM tablename"""
     # execute statement
