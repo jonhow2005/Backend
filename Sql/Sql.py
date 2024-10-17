@@ -36,6 +36,9 @@ def insert():
   crsr.execute(sql_command)
   # close connection
 
+def select(): 
+    sqlibidilect ="""SELECT COUNT(DISTINCT savesta) WHERE kumalala=  'hey quandale dingle here'"""
+    
 def fetch():
     
     cursor_obj.execute(statement) 
