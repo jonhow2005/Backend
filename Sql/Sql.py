@@ -38,7 +38,9 @@ def insert():
 
 def select(): 
     sqlibidilect ="""SELECT COUNT(DISTINCT savesta) WHERE kumalala=  'hey quandale dingle here'"""
-    
+    select2 = """SELECT FROM table WHERE column = 'arbitrary value' LIMIT 10 """
+def update(): 
+    sqlipdate = """UPDATE table SET value = 'new value' WHERE column = 'arbitrary value'""""
 def fetch():
     
     cursor_obj.execute(statement) 
