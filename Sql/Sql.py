@@ -36,8 +36,10 @@ def insert():
 def select(): 
     sqlibidilect ="""SELECT FROM table COUNT(DISTINCT savesta) WHERE kumalala=  'hey quandale dingle here'"""
     #COUNT AVG SUM MIN MAX                    ^optional                      IN (OPTION1,  OPTION2, OPTION3)
-    select2 = """SELECT FROM table WHERE column = 'arbitrary value' LIMIT 10 """
-    select3  = """SELECT FROM table WHERE column = 'arbitrary value' LIKE '%skibiditoilet%'"""
+    selectlimit = """SELECT FROM table WHERE column = 'arbitrary value' LIMIT 10 """
+    selectlike  = """SELECT FROM table WHERE column = 'arbitrary value' LIKE '%skibiditoilet%'"""
+    selectbetween  = """SELECT FROM table WHERE column BETWEEN (hey AND quandaledinglehere)"""
+    #^numerical value for between
     # '^[bopyes]__ba[m-f]{}%' is a string that starts with: Any letter besides B, O, P, Y, E or S, followed by two letters of any kind, followed by 'ba' and any letter within the range of m-f proceeded by an escaped character.
 def update(): 
     sqlipdate = """UPDATE table SET value = 'new value' WHERE column = 'arbitrary value'""""
