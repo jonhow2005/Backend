@@ -40,7 +40,7 @@ def select():
     selectlike  = """SELECT FROM table WHERE column = 'arbitrary value' LIKE '%skibiditoilet%'"""
     selectbetween  = """SELECT FROM table WHERE column BETWEEN (hey AND quandaledinglehere)"""
     #^numerical value for between
-    # '^[bopyes]__ba[m-f]{}%' is a string that starts with: Any letter besides B, O, P, Y, E or S, followed by two letters of any kind, followed by 'ba' and any letter within the range of m-f proceeded by an escaped character.
+    # '^[dopyes]__sb[e-v]{}%' is a string that starts with: Any letter besides D, O, P, Y, E or S, followed by two letters of any kind, followed by 'sb' and any letter within the range of e-v proceeded by an escaped character.
     selectalias= """SELECT column alias FROM table"""
     selectalias= """SELECT column FROM table alias"""
     selectalias= """SELECT column AS alias FROM table"""
