@@ -19,7 +19,7 @@ LogArray <- append(LogArray, Record)
 }
 
 Acsess_Log <- function(){
-for x in LogArray{
+for (x in LogArray) {
   print(paste(Array1[x],"/",Array2[x],"/",Array3[x]))
   print(LogArray[x])
 }
