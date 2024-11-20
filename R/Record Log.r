@@ -1,6 +1,6 @@
 "Options:"
 "New Record/ Acsess Log/ Clear"
-resp <- readln("")
+resp <- readline("")
 Array1 <- list("--")
 Array2 <- list("--")
 Array3 <- list("----")
@@ -10,7 +10,7 @@ New_Record <- function(){
 Data1 <- scan("Scan Day")
 Data2 <- scan("Scan Month")
 Data3 <- scan("Scan Year")
-Record <- readln("Enter Log")
+Record <- readline("Enter Log")
 
 Array1 <- append(Array1, Data1)
 Array2 <- append(Array2, Data2)
