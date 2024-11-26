@@ -1,16 +1,16 @@
 "Options:"
 "New Record/ Acsess Log/ Clear"
-resp <- readline("")
+user_resp <- readline("-")
 Array1 <- list("--")
 Array2 <- list("--")
 Array3 <- list("----")
 LogArray <- list("\n")
 
 New_Record <- function(){
-Data1 <- scan("Scan Day")
-Data2 <- scan("Scan Month")
-Data3 <- scan("Scan Year")
-Record <- readline("Enter Log")
+Data1 = scan("Scan Day")
+Data2 = scan("Scan Month")
+Data3 = scan("Scan Year")
+Record = readline("Enter Log")
 
 Array1 <- append(Array1, Data1)
 Array2 <- append(Array2, Data2)
@@ -29,13 +29,11 @@ Clear <- function(){
   cat("/014")
 }
 
-if (resp = "Clear") {
+if (user_resp == "Clear") {
   Clear()
-}else if (resp = "New Record"){
+}else if (user_resp == "New Record"){
   New_Record()
-}
-
-else if (resp = "Acsess Log"){
+}else if (user_resp == "Acsess Log"){
   Acsess_Log()
 }
   
